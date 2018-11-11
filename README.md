@@ -4,7 +4,7 @@
 [![GoDoc](https://godoc.org/github.com/oirik/base32flex?status.svg)](https://godoc.org/github.com/oirik/base32flex)
 [![apache license](https://img.shields.io/badge/license-Apache-blue.svg)](LICENSE)
 
-base32flex is a Go package which implements base32 Encoding.
+base32flex is a Go package which implements slightly improved base32 Encoding.
 
 Standard base32 could become more readable if it didn't contain 'I', 'l' (these are often confused with '1') and 'O', 'o' (these are often confused with '0').
 
