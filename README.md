@@ -10,9 +10,9 @@ Standard base32 could become more readable if it didn't contain 'I', 'l' (these 
 
 So this libray encodes excluding these letters.
 
-`LowerEncoding` excludes 'l' and 'o' for use of lower case.
+`LowerEncoding` excludes 'l'(lower 'L') and 'o' for use of lower case.
 
-`UpperEncoding` excludes 'I' and 'O' for use of upper case.
+`UpperEncoding` excludes 'I'(upper 'i') and 'O' for use of upper case.
 
 Both encodings include '8' and '9' that are excluded by Standard base32 encoding (but these could not be confused by any letters).
 
